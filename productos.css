@@ -1,0 +1,312 @@
+
+body{
+    background-image: url(bodi.jpg) ;
+}
+/* seccion de Header*/
+
+ .logo{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+  .inicio{
+    margin-right: 15px;
+  }
+  
+  
+  #inicio .contenido header{
+  
+      background-color: rgba(111, 210, 72, 0.8);
+      position:absolute;
+      width: 100%;
+      z-index: 0;
+      top: 30px;
+      height: 50px;
+      margin-left: -85px;
+     
+      
+    }
+    
+    #inicio .contenido header .contenido-header{
+    
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10 px 20px;
+      margin-top: 0px;
+      
+    }
+    
+    #inicio .contenido header .contenido-header h1{
+    
+      text-align: center;
+      color:#453838;
+      
+    }
+    
+    #inicio .contenido header .contenido-header nav ul{
+    
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin-right: 100px;
+      
+    }
+    #inicio .contenido header .contenido-header nav ul li a{
+    
+      text-decoration: none;
+      color: #453838;
+      margin: 0 12px;
+      font-weight: 400;
+      transition: .5s;
+      font-size: 1.2rem;
+    
+    }
+    
+    #inicio .contenido header .contenido-header nav ul a:hover{
+    
+      color: #fff;
+    }
+    
+    #inicio .contenido header .contenido-header .redes a{
+    
+       text-decoration: none;
+       color:#453838 ;
+       display: inline-block;
+       margin-left: 15px;
+       transition: .5s;
+    }
+    #inicio .contenido header .contenido-header .redes a:hover{
+        
+      background-color:  grey;
+      box-shadow: 5px 5px 18px #fff, -5px -5px 10px #8a8a8a;
+    }
+  .img{
+      width: 75px;
+      height: 55px;
+  }
+
+/*Seccion de contenido*/
+
+#inicio{
+
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+   
+}
+
+.contenido{
+  max-width: 1100px;
+  padding: 100px 0;
+  margin: auto;
+  margin-top: -55px;
+ 
+}
+
+.contenido .titulo-ingre{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+     text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+    margin-top: -7;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:rgba(111, 210, 72, 0.8);
+
+}
+
+.grid2{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+    margin-top: 50px;
+     
+  
+  }
+
+  .grid2 .contenedor{
+    display: flex;
+    background-color: #8a8a8a;
+    justify-self: stretch;
+    background-size: cover;
+    border-radius: 15px;
+   
+     
+    }
+    
+    .grid2 .contenedor:hover{
+    border-radius: 10px;
+    border: 3px solid rgba(111, 210, 72, 0.8);
+    }
+
+    .grid2 .contenedor a{
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin-left: 10%;
+        margin-top: 120px;
+        font-family: "Silkscreen", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #fff ;
+        
+
+    }
+
+    /*seccion de cada producto*/
+
+    h3{text-align: center;
+      font-size: 22px;
+      text-transform: uppercase;
+       text-decoration: underline;
+      text-decoration-color: #d3d3d3;
+      text-decoration-thickness: 5px;
+      margin-top: -7;
+      font-family: "Silkscreen", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      color:rgba(111, 210, 72, 0.8);
+     
+
+    }
+
+    p {
+      text-align: center;
+      color: #fff;
+      font-size: 1.3rem;
+    }
+
+    h4 , .lista, table{
+
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    #cheese, #cheese-doble, #oklahoma, #completa{
+      background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(burguer1.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+
+    }
+
+    .flex{
+      display: flex;
+      margin-left: 200px;
+      width: 80vw;
+      margin-top: 100px;
+      
+    }
+
+    table{
+      align-items: center;
+      
+      display: flex;
+      flex: 1;
+      height: 20vh;
+    }
+
+    .lista{
+      align-items: center;
+      
+      display: flex;
+      flex: 1;
+      height: 20vh;
+    }
+
+    /*Fondo de la doble*/
+    #cheese-doble{
+      background-image: url(burguer2.jpeg);
+      margin-top: 120px;
+      
+    }
+
+    /*fondo de la oklahoma*/
+
+    #oklahoma{
+      background-image: url(burguer3.webp);
+      margin: 120px;
+      width: 86vw;
+      margin-left: -10px;
+    }
+
+    /*fondo de la super completa*/
+
+    #completa{
+
+      background-image: url(burguer4.jpg);
+    }
+
+    #cheese{
+
+      margin-top: 70px;
+    }
+
+/*SECCION DEL FOOTER*/
+
+#foot{
+    
+  margin-bottom: -100px;
+  background-color: rgba(111, 210, 72, 0.8);
+  width: 98vw;
+  margin-left: -80px;
+  height: 20vh;
+  margin-top: 80px;
+ 
+  
+  
+}
+
+.iconos a, p{
+  margin: 10px;
+}
+
+.derechos{
+  display: block;
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10px;
+  text-align:center ;
+  font-size: 1rem;
+  
+}
+
+.derechos p, span, .iconos p{
+  color: black;
+}
+
+.iconos{
+  display: flex;
+  width: 100%;
+  height: auto;
+  color:#453838;
+  font-size: 1.5rem;
+  justify-content:center;
+}
+.iconos a:hover{
+
+box-shadow: 5px 5px 18px #fff, -5px -5px 10px #8a8a8a;
+}
+
+.iconos a{
+  color:#453838 ;
+}
+
+.redes a{
+
+  color: brown;
+}  

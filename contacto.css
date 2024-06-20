@@ -1,0 +1,222 @@
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+/* seccion del header*/
+
+.logo{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+  .inicio{
+    margin-right: 15px;
+  }
+  
+  
+  #inicio .contenido header{
+  
+      background-color: rgba(111, 210, 72, 0.8);
+      position:absolute;
+      width: 98%;
+      z-index: 0;
+      top: 30px;
+      height: 50px;
+      margin-left: 5px;
+      
+      
+    }
+    
+    #inicio .contenido header .contenido-header{
+    
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10 px 20px;
+      margin-top: 0px;
+      
+    }
+    
+    #inicio .contenido header .contenido-header h1{
+    
+      text-align: center;
+      color:#453838;
+      
+    }
+    
+    #inicio .contenido header .contenido-header nav ul{
+    
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin-right: 100px;
+      
+    }
+    #inicio .contenido header .contenido-header nav ul li a{
+    
+      text-decoration: none;
+      color: #453838;
+      margin: 0 12px;
+      font-weight: 400;
+      transition: .5s;
+      font-size: 1.2rem;
+    
+    }
+    
+    #inicio .contenido header .contenido-header nav ul a:hover{
+    
+      color: #fff;
+    }
+    
+    #inicio .contenido header .contenido-header .redes a{
+    
+       text-decoration: none;
+       color:#453838 ;
+       display: inline-block;
+       margin-left: 15px;
+       transition: .5s;
+    }
+    #inicio .contenido header .contenido-header .redes a:hover{
+        
+      background-color:  grey;
+      box-shadow: 5px 5px 18px #fff, -5px -5px 10px #8a8a8a;
+    }
+  .img{
+      width: 75px;
+      height: 55px;
+  }
+
+/*seccion de contacto*/
+
+
+#Contacto{
+    padding: 100px 15px;
+  }
+  
+  #Contacto .titulo-seccion{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+     text-decoration: none;
+    text-decoration-color: #d3d3d3;
+    margin-top: -7;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:rgba(111, 210, 72, 0.8);
+
+  }
+  #Contacto .contenedor-form{
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  #Contacto .contenedor-form .fila{
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  #Contacto .contenedor-form .mitad{
+    display: flex;
+    justify-content: space-between;
+    
+    
+  }
+  
+  #Contacto .contenedor-form input,
+  #Contacto .contenedor-form textarea{
+  
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #919193;
+  }
+  
+  #Contacto .contenedor-form .mitad input{
+    width: 40%;
+  }
+  
+  #Contacto .contenedor-form .input-full{
+    width: 100%;
+  }
+  
+  #Contacto .btn-enviar{
+  
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #Contacto .btn-enviar:hover{
+  
+    background-color: #ff5080;
+    color: #fff;
+  }
+  
+
+  /*SECCION DEL FOOTER*/
+
+#foot{
+    
+    margin-bottom: -100px;
+    background-color: rgba(111, 210, 72, 0.8);
+    width: 100%;
+    height: 20vh;
+    margin-top: 0;
+   
+    
+    
+  }
+  
+  .iconos a, p{
+    margin: 10px;
+  }
+  
+  .derechos{
+    display: block;
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+    text-align:center ;
+    font-size: 1rem;
+    
+  }
+  
+  .derechos p, span, .iconos p{
+    color: black;
+  }
+  
+  .iconos{
+    display: flex;
+    width: 100%;
+    height: auto;
+    color:#453838;
+    font-size: 1.5rem;
+    justify-content:center;
+  }
+  .iconos a:hover{
+  
+  box-shadow: 5px 5px 18px #fff, -5px -5px 10px #8a8a8a;
+  }
+  
+  .iconos a{
+    color:#453838 ;
+  }
+  
+  .redes a{
+  
+    color: brown;
+  }  

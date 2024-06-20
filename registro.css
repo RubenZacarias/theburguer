@@ -1,0 +1,217 @@
+body{
+    background-color: black;
+}
+/*Header*/
+
+
+.logo{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+  
+  
+  #inicio .contenido header{
+  
+      background-color: rgba(111, 210, 72, 0.8);
+      position: absolute;
+      width: 100%;
+      z-index: 0;
+      top: 30px;
+      height: 50px;
+    }
+    
+    #inicio .contenido header .contenido-header{
+    
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10 px 20px;
+      margin-top: 0px;
+    }
+    
+    #inicio .contenido header .contenido-header h1{
+    
+      text-align: center;
+      color:#453838;
+    }
+    
+    #inicio .contenido header .contenido-header nav ul{
+    
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin-right: 100px;
+      
+    }
+    #inicio .contenido header .contenido-header nav ul li a{
+    
+      text-decoration: none;
+      color: #453838;
+      margin: 0 12px;
+      font-weight: 400;
+      transition: .5s;
+      font-size: 1.2rem;
+    
+    }
+    
+    #inicio .contenido header .contenido-header nav ul a:hover{
+    
+      color: #fff;
+    }
+    .redes a{
+
+      color: brown;
+    }  
+    
+    
+    #inicio .contenido header .contenido-header .redes a{
+    
+       text-decoration: none;
+       color:#453838 ;
+       display: inline-block;
+       margin-left: 15px;
+       transition: .5s;
+    }
+    #inicio .contenido header .contenido-header .redes a:hover{
+        
+      background-color:  grey;
+      box-shadow: 5px 5px 18px #fff, -5px -5px 10px #8a8a8a;
+    }
+  .img{
+      width: 75px;
+      height: 55px;
+  }
+
+  #inicio{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+ 
+}
+
+  
+
+
+  
+  .titulo {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:rgba(111, 210, 72, 0.8);
+    font-size: 2rem;
+    margin-top: 500px;
+    margin-left: 100px;
+  }
+  #entrar{
+
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    width: 90vw;
+    height: 100vh;
+    margin-top: 100px;
+  }
+  
+  .titulo {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:rgba(111, 210, 72, 0.8);
+    font-size: 2rem;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  /*formulario*/
+
+  .regis{
+
+    margin-top: 40px;
+    color: white;
+    width: 50vw;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    
+    text-align: center;
+    margin-left: 260px;
+
+  }
+
+  .enviar{
+
+    text-decoration: none;
+    text-align: center;
+    margin-left: 40px;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    color:rgba(111, 210, 72, 0.8);
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    
+    
+  }
+  
+  .enviar:hover{
+    color: black;
+    border: 1px solid rgba(111, 210, 72, 0.8);
+    box-shadow: 5px 5px 18px #fff, -5px -5px 10px #8a8a8a;
+    transition: .5s;
+  }
+
+/*SECCION DEL FOOTER*/
+
+#foot{
+    
+  margin-top: 600px;
+  background-color: rgba(111, 210, 72, 0.8);
+  
+  
+}
+
+.iconos a, p{
+  margin: 10px;
+}
+
+.derechos{
+  display: block;
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10px;
+  text-align:center ;
+  font-size: 1rem;
+}
+
+.iconos{
+  display: flex;
+  width: 100%;
+  height: auto;
+  color:#453838;
+  font-size: 1.5rem;
+  justify-content:center;
+}
+.iconos a{
+  color:#453838 ;
+}
+.iconos a:hover{
+
+box-shadow: 5px 5px 18px #fff, -5px -5px 10px #8a8a8a;
+}
+
+
+
+
+
+
+
+
+
+  
