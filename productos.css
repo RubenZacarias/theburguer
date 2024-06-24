@@ -19,7 +19,7 @@ body{
   
       background-color: rgba(111, 210, 72, 0.8);
       position:absolute;
-      width: 100%;
+      width: 100vw;
       z-index: 0;
       top: 30px;
       height: 50px;
@@ -260,7 +260,7 @@ body{
     
   margin-bottom: -100px;
   background-color: rgba(111, 210, 72, 0.8);
-  width: 98vw;
+  width: 100vw;
   margin-left: -80px;
   height: 20vh;
   margin-top: 80px;
