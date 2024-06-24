@@ -1,10 +1,11 @@
 
 body{
     background-image: url(bodi.jpg) ;
+    height: auto;
 }
 /* seccion de Header*/
-
- .logo{
+/*
+.logo{
     font-family: "Silkscreen", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -17,13 +18,12 @@ body{
   
   #inicio .contenido header{
   
-      background-color: rgba(111, 210, 72, 0.8);
-      position:absolute;
-      width: 100vw;
-      z-index: 0;
-      top: 30px;
-      height: 50px;
-      margin-left: -85px;
+    background-color: rgba(111, 210, 72, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 0;
+    top: 30px;
+    height: 50px;
      
       
     }
@@ -88,6 +88,91 @@ body{
       width: 75px;
       height: 55px;
   }
+
+*/
+
+.logo{
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+#inicio .contenido header{
+
+    background-color: rgba(111, 210, 72, 0.8);
+    position: fixed;
+    width: 100vw;
+    z-index: 0;
+    top: 30px;
+    height: 50px;
+  
+   margin-left: -100px;
+  }
+  
+  #inicio .contenido header .contenido-header{
+  
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10 px 20px;
+    margin-top: 0px;
+  }
+  
+  #inicio .contenido header .contenido-header h1{
+  
+    text-align: center;
+    color:#453838;
+  }
+  
+  #inicio .contenido header .contenido-header nav ul{
+  
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    
+  }
+  #inicio .contenido header .contenido-header nav ul li a{
+  
+    text-decoration: none;
+    color: #453838;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+    font-size: 1.2rem;
+  
+  }
+  
+  #inicio .contenido header .contenido-header nav ul a:hover{
+  
+    color: #fff;
+  }
+  
+  #inicio .contenido header .contenido-header .redes a{
+  
+     text-decoration: none;
+     color:#453838 ;
+     display: inline-block;
+     margin-left: 15px;
+     transition: .5s;
+  }
+  #inicio .contenido header .contenido-header .redes a:hover{
+      
+    background-color:  grey;
+    box-shadow: 5px 5px 18px #fff, -5px -5px 10px #8a8a8a;
+  }
+.img{
+    width: 75px;
+    height: 55px;
+}
+
+
+
+
 
 /*Seccion de contenido*/
 
@@ -256,12 +341,14 @@ body{
 
 /*SECCION DEL FOOTER*/
 
+
+/*
 #foot{
     
   margin-bottom: -100px;
   background-color: rgba(111, 210, 72, 0.8);
   width: 100vw;
-  margin-left: -80px;
+  
   height: 20vh;
   margin-top: 80px;
  
@@ -287,6 +374,55 @@ body{
 
 .derechos p, span, .iconos p{
   color: black;
+}
+
+.iconos{
+  display: flex;
+  width: 100%;
+  height: auto;
+  color:#453838;
+  font-size: 1.5rem;
+  justify-content:center;
+}
+.iconos a:hover{
+
+box-shadow: 5px 5px 18px #fff, -5px -5px 10px #8a8a8a;
+}
+
+.iconos a{
+  color:#453838 ;
+}
+
+.redes a{
+
+  color: brown;
+}  
+
+
+*/
+
+#foot{
+    
+  margin-bottom: -200px;
+  background-color: rgba(111, 210, 72, 0.8);
+  width: 100vw;
+ margin-left: -100px;
+  
+}
+
+.iconos a, p{
+  margin: 10px;
+}
+
+.derechos{
+  display: block;
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10px;
+  text-align:center ;
+  font-size: 1rem;
 }
 
 .iconos{
