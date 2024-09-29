@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* falta poner un fondo de imagen aqui*/
+    
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+      
+      
+
+}
+
+.container-form{
+    height: 500px;
+    max-width: 900px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 8px 7px rgb(0, 0, .1);
+    transition: all 1s ease;
+    margin: 10px;
+}
+
+/* parte izquierda del contenedor */
+
+.information{
+    width: 40% ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(111, 210, 72, 0.8);
+    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+
+}
+
+.info-childs{
+    width: 100%;
+    padding: 30px;
+    margin: 30px;
+}
+
+.info-childs h2{
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.info-childs p {
+    margin: 15px 0;
+    color: #555;
+}
+
+.info-childs input{
+    background-color: transparent;
+    outline: none;
+    border: solid 2px #9191bd;
+    border-radius:20px;
+    padding: 10px 20px;
+    color: black;
+    width: 100%;
+    transition: background-color .3s ease;
+    margin-top: 15px;
+
+}
+
+.info-childs input:hover{
+    background-color: black;
+    border: none;
+    color: white;
+    box-shadow: 0 2px 5px rgb(0, 0, .1);
+
+
+}
+
+.formm label{
+    display: flex;
+    align-items: center;
+    cursor: none;
+    border: solid 1px red;
+    width: 100%;
+    outline: none;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.regis{
+    cursor: none;
+}
+
+.formm label input{
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: #fff;
+    outline: none;
+    border-radius: 28px;
+    color: #333;
+    margin-bottom: 15px;
+    height: 33px;
+    padding: 0 15px;
+    box-shadow: 0 2px 5px rgb(0, 0, .1);
+    
+    
+}
+
+.formm label input:hover{
+ background-color: #fff;
+ color: black;
+}
+
+
+
+/* Parte derecha crear Cuenta */
+
+.form-information{
+    display: flex;
+    align-items: center;
+    border: solid thin red;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.form-information-childs{
+    padding: 0 30px;
+    
+}
+
+.form-information-childs h2{
+    color: #333;
+    font-size: 2rem;
+}
+
+.form-information-childs p{
+    color: #555;    
+}
+
+.icons{
+    margin: 15px 0;
+}
+
+.icons i{
+       border-radius: 50%;
+       padding: 15px;
+       border: solid thin #9191bd;
+       margin: 0 10px;
+       color: #9191bd;
+       transition: background-color 0.3s ease;
+       box-shadow: 0 2px 5px rgb(0, 0, .1);
+
+}
+
+.icons i:hover{
+    background-color: #c7c7f3;
+    color: #fff ;
+}
+
+.form{
+    margin: 38px 0 0 0;
+}
+
+.form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 0 10px;
+    
+    box-shadow: 0 2px 5px rgb(0, 0, .1);
+}
+
+.form label input{
+width: 100%;
+padding: 10px;
+background-color: #fff;
+border: none;
+outline: none;
+border-radius: 28px;
+color: #333;
+
+}
+
+.form input[type="submit"]{
+    background-color: rgba(111, 210, 72, 0.8);
+    color: black;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, .1) ;
+}
+
+.form input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+
+}
+
+/*  RESPONSIVE FORM  */
+
+@media screen and (max-width:750px) {
+    html{
+        font-size: 12px;
+
+    }
+    
+}
+
+@media screen and (max-width:750px) {
+    html{
+        font-size: 10px;
+
+    }
+    .container-form{
+        height: auto;
+        flex-direction: column;
+
+    }
+    .information{
+        width: 100%;
+        padding: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .form-information{
+        width: 100%;
+        padding: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0px;
+    }
+}
+
+
+/* voy por el minuto 29 del video*/
+
+ 
+

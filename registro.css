@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    color: #fff;
 }
 /*Header*/
 
@@ -20,6 +21,7 @@ body{
       z-index: 0;
       top: 30px;
       height: 50px;
+      margin-left: 5px;
     }
     
     #inicio .contenido header .contenido-header{
@@ -76,6 +78,8 @@ body{
        margin-left: 15px;
        transition: .5s;
     }
+
+    
     #inicio .contenido header .contenido-header .redes a:hover{
         
       background-color:  grey;
@@ -90,8 +94,9 @@ body{
     background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(fondo.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
- 
+    height: 95vh;
+    
+    margin-top: 100px;
 }
 
   
@@ -104,13 +109,14 @@ body{
     font-style: normal;
     color:rgba(111, 210, 72, 0.8);
     font-size: 2rem;
-    margin-top: 500px;
+    margin-top: 600px;
     margin-left: 100px;
+    
   }
   #entrar{
 
     position: absolute;
-    top: 300px;
+    top: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
    
@@ -130,40 +136,108 @@ body{
   }
 
   /*formulario*/
-
-  .regis{
-
-    margin-top: 40px;
-    color: white;
-    width: 50vw;
-    padding-top: 10px;
-    margin-bottom: 10px;
+  
+  .containerUno{
+    width: 100%;
+    max-width: 600px;
+    margin:  auto;
+    display:inline-flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     
-    text-align: center;
-    margin-left: 260px;
-
+    color: #fff;
+    
   }
 
-  .enviar{
+  .row{
+    width: 550px;
+    height: auto;
+    margin: 0 auto;
+    
+  }
 
-    text-decoration: none;
-    text-align: center;
-    margin-left: 40px;
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    color:rgba(111, 210, 72, 0.8);
-    font-size: 1.5rem;
-    margin-bottom: 40px;
+
+  .form-label{
+    width: 90%;
+    height: 30px;
+    margin: .5rem;
+    font-size: 1.2rem;
     
-    
+  
+  }
+
+  #inputcombo{
+    height: 70px;
+    font-size: 1rem;
+  }
+  .btn-primary{
+    padding: .5em 1em;
+    border:none;
+    color: black;
+    background:rgba(111, 210, 72, 0.8) ;
+    cursor: pointer;
   }
   
-  .enviar:hover{
-    color: black;
-    border: 1px solid rgba(111, 210, 72, 0.8);
-    box-shadow: 5px 5px 18px #fff, -5px -5px 10px #8a8a8a;
-    transition: .5s;
+  .btn-primary:hover{
+    color: #fff;
+    background-color: black;
   }
+
+  .form-control{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  #btnUpdate{
+    display: none;
+  }
+  
+  #datatable{
+  
+    width: 600px;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items:end;
+    height: auto;
+    margin-left: 1300px;
+    margin-top: -320px;
+    border-collapse: separate;
+    border-spacing: 30px 10px;
+
+  }
+  
+  .btn-danger, .btn-warning{
+    margin-left: 28px;
+    background-color: rgba(111, 210, 72, 0.8);
+  
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .btn-danger:active, .btn-warning:active{
+    background-color: black;
+  }
+  
+  .listtabla{
+    width: 520px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    font-size: 1.1rem;
+    margin-left: 705px;
+    margin-top: 200px;
+    padding: 10px;
+  }
+  
+  li{
+    list-style: none;
+  }
+
 
 /*SECCION DEL FOOTER*/
 
@@ -209,7 +283,7 @@ box-shadow: 5px 5px 18px #fff, -5px -5px 10px #8a8a8a;
 
 
 
-
+/* voy por el segundo video */
 
 
 

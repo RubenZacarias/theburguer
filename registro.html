@@ -8,7 +8,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Silkscreen:wght@400;700&display=swap');
         </style>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <title>Registro</title>
+    <title> Mis Pedidos</title>
 </head>
 <body>
 
@@ -21,14 +21,15 @@
                              <nav id="nav" class="">
                                 
                                 <ul id="links">
-                                    <li><a href="index.html">Inicio</a></li>
+                                    
                                     <li><a href="nosotros.html">Nosotros</a></li>
                                     <li><a href="productos.html">Productos</a></li>
-                                    <li><a href="registro.html">Registrarse</a></li>
+                                    <li><a href="registro.html">Mis pedidos</a></li>
                                     <li><a href="sucursales.html">Sucursales</a></li>
                                     <li><a href="contactos.html">Contacto</a></li>
-                                    </ul>
-                                </nav>
+                                    <li><a href="index.html" > <i class="fa fa-sign-out" aria-hidden="true"></i>  Salir</a></li>
+                                  </ul>
+                              </nav>
     
                 
      <!--Iconos de Las Redes Sociales-->
@@ -36,62 +37,89 @@
                 <a href="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
                 <a href="Git"><i class="fa-brands fa-square-instagram"></i> </a>
                 <a href="Linkedin"> <i class="fa-brands fa-tiktok"></i></a>
+                
             </div>
                 
             </header>
 
 <!--contenido de registro-->
+<body>
 
-<main>
+ <main>
     <section class="entrar">
       <div id="entrar">
-          <h1 class="titulo">Registrarse</h1>
-           <div class="regis">
-             <h3>Formulario de Registro</h3>
-             <form action="show_data.html" target="_blank">
-             <label for="firstname">Nombre:</label> <input type="text" placeholder="Ingrese Nombre">
-             <label for="firstname">Apellido:</label> <input type="text" placeholder="Ingrese Apellido"><br>
-             <br>
-             <label for="street">Direccion:</label>  <input type="text" placeholder="Ingrese Direccion">
-             <label for="city">Ciudad:</label> <input type="text" placeholder="Ingrese Ciudad"><br>
-             <br>
-             <label for="zipcode">Codigo Postal:</label> <input type="text" placeholder="Ingrese CP">
-             <label for="birthdata">Fecha de Nacimiento:</label> <input type="date" placeholder="Fecha de Nacimiento">
-             <p>
-                <br>
-                Genero:
-                <input type="radio" name="genero" value="Hombre">Hombre 
-                <input type="radio" name="genero" value="Mujer"> Mujer 
-                <input type="radio" name="Otro">Otro 
-             </p> 
-             <p>
-                <br>
-                Estudios:
-                <input type="checkbox" name="estudio" value="Primario" id="">Primario
-                <input type="checkbox" name="estudio" value="Secundario" id="">Secundario
-                <input type="checkbox" name="estudio" value="Terciario" id="">Terciario
-                <input type="checkbox" name="estudio" value="Universitario" id="">Universitario
-                <input type="checkbox" name="estudio" value="Otro" id="">Otro
+        <h1 class="titulo">Seleccione su Pedido!</h1>
 
-             </p>
-             <br>
+        <div class="containerUno" >
+           <div class="container mb-5">
+             <div class="row">
+                <form>
+                    <div class="mb-3">
+                      <label for="form-label" class="form-label">Elija su Combo The Burguer</label>
+                       <select id="inputcombo" name="so2" size="5" class="form-control">
+                          <option value="ChesseBurguer" selected="selected">Chesse Burguer</option>
+                          <option value="DobleChesse">Doble Chesse</option>
+                          <option value="MegaOklahoma">Mega Oklahoma</option>
+                          <option value="SuperCompleta">Super Completa</option>
+                        </select>
+                       
+                    </div>
+  
+                    <div class="mb-3">
+                      <label for="form-label" class="form-label">Seleccione la Cantidad de Combos</label>
+                      <input type="number" class="form-control" id="inputnumber" placeholder="Cantidad">
+                    </div>
+  
+                    <div class="mb-3">
+                      <label for="form-label" class="form-label">Nombre Completo</label>
+                      <input type="text" class="form-control" id="inputname" placeholder="Nombre Completo">
+  
+                    </div>
+  
+                   <button type="submit" class="btn btn-primary" id="btnAdd" onclick="AddData()">Enviar pedido</button>
+                   <button type="submit" class="btn btn-primary" id="btnUpdate">Actualizar Pedido</button>
+  
+                </form>
+                
+             
+              </div>
+               
+                <table class="table table-border " id="datatable">
+                   
+                  <tbody>
+                  
 
-             <input class="enviar" type="submit" value="Enviar">
+                   </tbody>
+               </table>
 
+          </div>
+  
+        </div> 
 
-              </form>
-            </div>
-        </div>
+      </div>
+
+       
          
     </section>
 
-</main>
+    <div >
+                  
+      <nav class="listtabla">
+         <li>Combo </li>
+         <li>Cant</li>
+         <li>Nombre </li>
+         <li>Eliminar / Editar</li>
+      </nav>
+    
+    </div>
+
+ </main>
 
  <!--FOOTER-->
 
- <<section >
+ <section >
   <div id="foot">
-<footer>
+ <footer>
   <div class="iconos" id="icons">
     <p>Seguinos en: </p>
    <a   href="#" target="_blank" class="fa-brands fa-facebook-f redes"> </a>
@@ -103,87 +131,10 @@
                 <p>Copyright Todos los Derechos Reservados</p> 
                 <p>Creado por:  <span class="nombre">Ruben Zacarias</span></p>
               </div>
-</footer>
-</div>   
+  </footer>
+ </div>   
+ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-    <p align=center>&nbsp;</p>
-<h1 align=center><font size="+1">The following information has been sent as your
-  feedback:</font></h1>
-
-<table border="1" align=center width="226">
-  <tr>
-    <th align="center">Form Field</th>
-    <th align="center">Field Value</th>
-  </tr>
-
-<script language="javascript">
-var args = location.search.substr(1).split('&');
-for (var i = 0; i < args.length; ++i) {
-  var parts = args[i].split('=');
-  if (parts != null) {
-    var field = parts[0];
-    var value = parts[1];
-    if (value == null) {
-      value = "null"
-    }
-    else {
-      value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
-    }
-
-    document.writeln('<tr><td align="center">' + field + '</td>');
-    document.writeln('<td align="center">' + value + '</td></tr>');
-  }
-}
-</script>
-
-<noscript>
-<tr><td>
-<p>You need to turn on Javascript in your browser.</p>
-
-<p>In Microsoft Internet Explorer 4 or greater:</p>
-<ul>
-<li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
-<li>Click on the "Security" tab.</li>
-<li>Click on the "Custom Level" button. (In IE 4, select "Custom"
-and then click on "Settings...".)</li>
-<li>Under "Active scripting" make sure "Enable" is selected.</li>
-</ul>
-
-<p>In Netscape version 4 or greater:</p>
-<ul>
-<li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
-<li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
-<li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
-<li>Click the <b>OK</b> button.</li>
-</ul>
-
-</td></tr>
-</noscript>
-
-</table>
--->
-
-
-
-    
+ <script  src="registro.js"></script>
 </body>
 </html>

@@ -108,9 +108,11 @@ body{
     top: 30px;
     height: 50px;
   
-   margin-left: -100px;
+   margin-left: -200px;
   }
   
+  
+
   #inicio .contenido header .contenido-header{
   
     max-width: 1100px;
@@ -132,6 +134,7 @@ body{
   
     list-style: none;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-right: 100px;
     
@@ -284,6 +287,7 @@ body{
       background-size: cover;
       background-position: center;
       height: 80vh;
+      width: 100%;
 
     }
 
@@ -323,8 +327,9 @@ body{
     #oklahoma{
       background-image: url(burguer3.webp);
       margin: 120px;
-      width: 86vw;
-      margin-left: -10px;
+      width: 71vw;
+      margin-left: 2px;
+      
     }
 
     /*fondo de la super completa*/
@@ -406,7 +411,7 @@ box-shadow: 5px 5px 18px #fff, -5px -5px 10px #8a8a8a;
   margin-bottom: -200px;
   background-color: rgba(111, 210, 72, 0.8);
   width: 100vw;
- margin-left: -100px;
+ margin-left: -200px;
   
 }
 
